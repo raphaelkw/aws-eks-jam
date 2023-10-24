@@ -1,0 +1,9 @@
+# create namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: opentelemetry-operator-system
+  labels:
+    name: opentelemetry-operator-system
+
+---

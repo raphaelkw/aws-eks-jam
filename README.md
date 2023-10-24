@@ -1,5 +1,8 @@
 # aws-eks-jam
 
+## Dashboard
+![Alt text](image.png)
+
 ## Challenges
 https://jam.awsevents.com/149cc6c3-82f0-4eb9-a9e0-b762d976d32e/challenges 
 <img width="1727" alt="image" src="https://github.com/raphaelkw/aws-eks-jam/assets/47944476/26bedcd4-71e9-4a76-add5-61e833a5414a">
@@ -49,3 +52,7 @@ aws eks update-cluster-config \
 
 ### Challenge: EKS OBSERVABILITY
 https://jam.awsevents.com/149cc6c3-82f0-4eb9-a9e0-b762d976d32e/challenges/eks-jam-o-11-y-001?i=3&t=details-3
+
+#### Deploy a sample application to test the AWS Distro for OpenTelemetry Collector
+https://docs.aws.amazon.com/eks/latest/userguide/sample-app.html
+
