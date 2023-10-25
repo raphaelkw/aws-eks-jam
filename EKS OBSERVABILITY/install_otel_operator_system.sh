@@ -11,8 +11,7 @@ helm repo add ${repository_name} ${repository_url}
 helm repo update
 
 # install opemtelemetry operator using helm
-helm install ${name} ${chart} \
-  --namespace ${namespace} \
+helm install ${name} ${chart} --namespace ${namespace}
   
 # verify opemtelemetry operator installation
 helm ls -A
